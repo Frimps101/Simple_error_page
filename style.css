@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Monserrat";
+    color: rgb(56, 56, 56);
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper h1{
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.wrapper .message{
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.wrapper .btn{
+    background: #009FFD;
+    padding:15px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrapper .btn:hover{
+    background: #2A2A72;
+    padding: 20px;;
+}
+
+.wrapper .copyrights{
+    margin-top: 50px;
+}
+
+
